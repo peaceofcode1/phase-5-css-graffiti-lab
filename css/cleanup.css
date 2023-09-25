@@ -1,1 +1,26 @@
-/* write your override styles here */
+{
+  background-color: red;
+  color: white;
+  border: 2px solid blue;
+  padding: 10px;
+  margin: 20px;
+  font-size: 18px;
+}
+
+/ Add more rules to increase the file size /
+.another-example {
+  font-size: 16px;
+  margin: 10px;
+  background-image: linear-gradient(to bottom, #ffcc00, #ff9900);
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/ You can even add some filler content to increase size /
+.filler-content {
+  / Lorem Ipsum text for filler content /
+  content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget massa euismod, malesuada felis in, bibendum ex. Nullam vehicula, libero vel mattis feugiat.";
+}
+
+
